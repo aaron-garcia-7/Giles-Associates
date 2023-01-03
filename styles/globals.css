@@ -12,6 +12,10 @@
   color: var(--dark);
 }
 
+section {
+  overflow: hidden;
+}
+
 ul {
   list-style: none;
 }
@@ -20,4 +24,120 @@ a,
 button {
   text-decoration: none;
   cursor: pointer;
+}
+
+/* To Top Button */
+.toTop {
+  background: var(--light);
+  position: fixed;
+  bottom: 2.8vw;
+  right: 2.8vw;
+  width: calc(2rem + 1vw);
+  height: calc(2rem + 1vw);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(0, 50%);
+  transition: 0.5s ease;
+}
+
+.toTop:hover {
+  transform: scale(1.1) !important;
+}
+
+.upChevron {
+  width: calc(1.6rem + 0.2vw);
+}
+/* To Top Button */
+
+
+/* Primary button hover animations */
+.swiperBtn {
+  border: 1px solid var(--hero);
+  position: relative;
+  background: none;
+  color: transparent;
+}
+.swiperBtn::before {
+  content: "";
+  /* change per button*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1.4rem;
+  color: var(--light);
+  z-index: 1;
+  transition: 0.4s ease 0.16s;
+  pointer-events: none;
+}
+
+.swiperBtn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: var(--hero);
+  animation: swiperBtn 0.5s cubic-bezier(.78,.13,.15,.86) forwards;
+  pointer-events: none;
+}
+.swiperBtn:hover::before {
+  color: var(--hero);
+  transition: 0.4s ease 0.16s;
+}
+.swiperBtn:hover::after {
+  animation: swiperBtnaft 0.5s cubic-bezier(.78,.13,.15,.86) forwards;
+}
+@keyframes swiperBtn {
+  0% {
+      left: auto;
+      right: 0;
+      width: 0%;
+  }
+  20% {
+      left: 0;
+      right: auto;
+      width: 0%;
+  }
+  100% {
+      left: 0;
+      right: auto;
+      width: 100%;
+  }
+}
+@keyframes swiperBtnaft {
+  0% {
+      left: 0;
+      right: auto;
+      width: 100%;
+  }
+  20% {
+      left: auto;
+      right: 0;
+      width: 100%;
+  }
+  100% {
+      left: auto;
+      right: 0;
+      width: 0%;
+  }
+}
+/* Primary button hover animations */
+
+
+@media (max-width: 520px){
+  .toTop {
+      bottom: 6.4vw;
+      right: 6.4vw;
+  }
 }

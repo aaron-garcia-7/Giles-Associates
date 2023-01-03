@@ -29,7 +29,13 @@ const Perks = () => {
         <div className={styles.content}>
           <h2>Enjoy The Perks</h2>
           <div className={styles.cards}>{perkCards}</div>
-          <Link to="hero" smooth={"easeInOutQuint"} duration={800} delay={100}>
+          <Link
+            to="hero"
+            smooth={"easeInOutQuint"}
+            duration={800}
+            delay={100}
+            className="swiperBtn"
+          >
             Get started
             <FontAwesomeIcon icon={faChevronRight} className={styles.chevron} />
           </Link>

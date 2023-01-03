@@ -14,7 +14,15 @@ const Hero = () => {
               we’ll reach out with more information!
             </p>
           </div>
-          <form action="" method="post" className={styles.form}>
+          <form
+            name="contact"
+            method="post"
+            action="/contact"
+            className={styles.form}
+            netlify
+            netlify-honeypot="bot-field"
+            hidden
+          >
             <div className={styles.formBlock}>
               <input
                 type="text"

@@ -8,6 +8,9 @@ import Perks from "./sections/Perks";
 import WhyUs from "./sections/WhyUs";
 import Locations from "./sections/Locations";
 import About from "./sections/About";
+import CallNow from "./sections/CallNow";
+import Footer from "../components/Footer";
+import ToTop from "../components/ToTop";
 
 export default function Home() {
   const [fromTop, setFromTop] = useState(false);
@@ -42,7 +45,7 @@ export default function Home() {
     };
   }, [handleNavHide]);
   return (
-    <div>
+    <div id="top">
       <Head>
         <title>Giles & Associates</title>
         <meta name="description" content="Description Here" />
@@ -50,11 +53,14 @@ export default function Home() {
       </Head>
       <main>
         <Header fromTop={fromTop} scrollDown={scrollDown} />
+        <ToTop fromTop={fromTop} />
         <Hero />
         <WhyUs />
         <Perks />
         <Locations />
         <About />
+        <CallNow />
+        <Footer />
       </main>
     </div>
   );

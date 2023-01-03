@@ -1,0 +1,65 @@
+.callNow {
+    /* border: 2px solid black; */
+    height: 50vh;
+    min-height: 26rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.retainer {
+    width: 100%;
+    max-width: 76rem;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.retainer > * {
+    text-align: center;
+}
+
+.retainer h2 {
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: calc(1.6rem + 0.8vw);
+    text-transform: uppercase;
+}
+
+.retainer p {
+    font-size: calc(0.8rem + 0.2vw);
+    margin-bottom: 4rem;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-weight: 700; */
+    /* text-transform: uppercase; */
+}
+
+.btnsDiv a {
+    padding: 0.6rem 1.4rem;
+    width: 11rem;
+    font-size: calc(0.8rem + 0.2vw);
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    margin: 0 1rem;
+}
+
+.btn1 {
+    background: var(--hero);
+    color: var(--light);
+}
+
+.btn1:hover {
+    opacity: 0.8;
+}
+
+.btn2 {
+    border: 1px solid var(--hero);
+}
+
+.btn2:hover {
+    opacity: 0.8;
+}
