@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <div id="top">
       <Head>
-        <title>Giles & Associates</title>
+        <title>Grovewood Therapy</title>
         <meta name="description" content="Description Here" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -61,7 +61,7 @@ export default function Home() {
       </form>
 
       <main>
-        <Header fromTop={fromTop} scrollDown={scrollDown} />
+        {/* <Header fromTop={fromTop} scrollDown={scrollDown} /> */}
         <ToTop fromTop={fromTop} />
         <Hero />
         <WhyUs />

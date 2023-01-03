@@ -33,33 +33,28 @@
 .retainer p {
     font-size: calc(0.8rem + 0.2vw);
     margin-bottom: 4rem;
-    /* font-family: 'Montserrat', sans-serif; */
-    /* font-weight: 700; */
-    /* text-transform: uppercase; */
 }
 
-.btnsDiv a {
+.callNowBtn {
     padding: 0.6rem 1.4rem;
     width: 11rem;
     font-size: calc(0.8rem + 0.2vw);
     text-transform: uppercase;
     transition: 0.3s ease;
-    margin: 0 1rem;
+}
+.callNowBtn::before {
+    content: "(801) 123-4567";
 }
 
-.btn1 {
-    background: var(--hero);
-    color: var(--light);
+
+@media (max-width: 1440px) {
+    .retainer p {
+        width: 80%;
+    }
 }
 
-.btn1:hover {
-    opacity: 0.8;
-}
-
-.btn2 {
-    border: 1px solid var(--hero);
-}
-
-.btn2:hover {
-    opacity: 0.8;
+@media (max-width: 1080px) {
+    .retainer p {
+        width: 68%;
+    }
 }

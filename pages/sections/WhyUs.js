@@ -17,14 +17,14 @@ const WhyUs = () => {
   }, [offset]);
 
   const parallaxStyle = {
-    transform: `translate(-50%, ${offset * 0.04}px)`,
+    transform: `translate(-50%, ${offset * 0.06}px)`,
   };
   // End Parallax
   return (
     <section className={styles.whyUs} id="whyUs">
       <div className={styles.retainer}>
         <h2>
-          Why Choose <br /> <em className={styles.em}>Giles & Associates</em>
+          Why Choose <br /> <em className={styles.em}>Grovewood Therapy</em>
         </h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,

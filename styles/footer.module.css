@@ -1,108 +1,21 @@
 .footer {
-    height: 50vh;
-    min-height: 30rem;
+    height: 20vh;
+    min-height: 14rem;
 }
 
 .retainer {
+    border-top: 2px solid var(--dark);
     width: 100%;
     max-width: 76rem;
     margin: auto;
     padding: 2rem 1rem;
-    justify-content: space-between;
-    transform: translate(0, 10%);
-}
-
-.topFooter {
-    border-bottom: 2px solid var(--hero);
     display: flex;
     justify-content: space-between;
-    padding-bottom: 4rem;
+    transform: translate(0, 80%);
 }
 
-.retainer h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: calc(1.2rem + 0.2vw);
-    font-weight: 400;
-    color: maroon;
-}
-
-.retainer nav {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-}
-
-.retainer h4 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: calc(0.8rem + 0.6vw);
-    margin-bottom: 2rem;
-}
-
-.retainer nav a {
-    margin-bottom: 0.4rem;
-}
-
-.retainer aside {
-    width: 40%;
-}
-
-.content {
-    display: flex;
-    justify-content: space-between;
-}
-
-.contactBlock {
-    display: flex;
-    flex-direction: column;
-}
-
-.contactBlock h5 {
-    color: var(--hero);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: calc(0.8rem + 0.4vw);
-    margin-bottom: 1.2rem;
-}
-
-.contactBlock a {
-    margin-bottom: 1rem;
-}
-
-.social {
-    display: flex;
-    margin-top: 1rem;
-}
-
-.social h6 {
-    color: var(--hero);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: calc(0.6rem + 0.2vw);
-    margin-bottom: 0.6rem;
-    margin-right: 1rem;
-}
-
-.socialIcons {
-    width: calc(1rem + 0.6vw);
-    height: calc(1rem + 0.6vw);
-    cursor: pointer;
-}
-
-.socialIcons:nth-of-type(1) {
-    margin-right: 1.6rem;
-}
-
-.bottomFooter {
-    padding-top: 4rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.bottomFooter h6,
-.bottomFooter a {
+.copyright,
+.credits {
     font-family: 'Poppins', sans-serif;
     font-size: calc(0.6rem + 0.2vw);
     font-weight: 400;
@@ -114,3 +27,22 @@
     margin: 0 0.4rem 0 0.3rem;
 }
 
+.contactBlock {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-size: calc(0.6rem + 0.2vw);
+}
+
+@media (max-width: 1080px) {
+    .retainer {
+        border: none;
+        padding: 2rem 2vw;
+    }
+    .contactBlock {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        font-size: calc(0.6rem + 0.2vw);
+    }
+}

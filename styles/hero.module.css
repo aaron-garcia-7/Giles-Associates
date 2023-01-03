@@ -1,6 +1,6 @@
 .hero {
     height: 100vh;
-    min-height: 56rem;
+    min-height: 48rem;
     background-image: url(../images/hero.jpg);
     background-size: cover;
     background-position: 0% 40%;
@@ -10,10 +10,8 @@
 }
 
 .retainer {
-    /* border: 1px solid black; */
-    transform: translate(0, 6%);
     width: 100%;
-    max-width: 76rem;
+    max-width: var(--retainer);
     margin: auto;
     padding: 2rem 1rem;
 }
@@ -187,5 +185,26 @@
         bottom: auto;
         top: 0;
         height: 0%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .contactForm {
+        width: 52%;
+        padding: 2.8rem 2rem;
+    }
+    .formHeader p {
+        margin-bottom: 2.8rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .hero {
+        background-position: right;
+
+    }
+    .contactForm {
+        margin: auto;
+        width: calc(24rem + 18vw);
     }
 }

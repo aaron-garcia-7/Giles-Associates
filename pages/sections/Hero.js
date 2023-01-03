@@ -19,7 +19,7 @@ const Hero = () => {
             method="post"
             action="/contact"
             className={styles.form}
-            netlify
+            netlify="true"
             netlify-honeypot="bot-field"
             hidden
           >

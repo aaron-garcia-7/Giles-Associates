@@ -23,10 +23,10 @@ const Locations = () => {
   }, [offset]);
 
   const parallaxStyle1 = {
-    transform: `translate(50%, ${offset * 0.04}px)`,
+    transform: `translate(50%, ${offset * 0.06}px)`,
   };
   const parallaxStyle2 = {
-    transform: `translate(-50%, ${offset * 0.04}px)`,
+    transform: `translate(-50%, ${offset * 0.06}px)`,
   };
   // End Parallax
   return (

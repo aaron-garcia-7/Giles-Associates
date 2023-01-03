@@ -10,18 +10,12 @@ const CallNow = () => {
         </h2>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore
-          molestias, consectetur laudantium natus <br />
-          sapiente libero molestiae illum neque, a quam eos voluptatibus commodi
-          autem.
+          molestias, consectetur laudantium natus sapiente libero molestiae
+          illum neque, a quam eos voluptatibus commodi autem.
         </p>
-        <div className={styles.btnsDiv}>
-          <a href="" className={styles.btn1}>
-            Lehi: (801) 456-7890
-          </a>
-          <a href="" className={styles.btn2}>
-            Orem: (801) 123-4567
-          </a>
-        </div>
+        <a href="" className={`${styles.callNowBtn} swiperBtn`}>
+          (801) 123-4567
+        </a>
       </div>
     </section>
   );

@@ -30,6 +30,10 @@
     text-transform: uppercase;
 }
 
+.retainer p {
+    font-size: calc(0.8rem + 0.2vw);
+}
+
 .em {
     font-style: normal;
     color: var(--hero);
@@ -42,4 +46,19 @@
     left: 0;
     bottom: 24%;
     opacity: 0.2;
+}
+
+@media (max-width: 1440px) {
+    .retainer p {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1080px) {
+    .retainer p {
+        width: 68%;
+    }
+    .abstract {
+        width: 30%;
+    }
 }

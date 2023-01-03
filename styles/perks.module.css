@@ -1,14 +1,12 @@
 .perks {
     height: 90vh;
-    min-height: 30rem;
+    min-height: 38rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .retainer {
-    /* border: 1px solid black; */
-    /* transform: translate(0, 6%); */
     width: 100%;
     max-width: 76rem;
     margin: auto;
@@ -19,16 +17,13 @@
 }
 
 .image {
-    /* width: calc(12rem + 20vw); */
-    /* height: calc(12rem + 20vw); */
     width: 44%;
-    height: calc(12rem + 20vw);
+    height: calc(24rem + 10vw);
     object-fit: cover;
     box-shadow: 0px 2px 4px #8d8d8d;
 }
 
 .content {
-    /* border: 1px solid black; */
     width: 52%;
 }
 
@@ -40,7 +35,6 @@
     margin-bottom: 2rem;
 }
 .cards {
-    /* border: 1px dashed blue; */
     display: flex;
     flex-wrap: wrap;
     gap: 2rem 0;
@@ -48,8 +42,8 @@
 }
 
 .faIcon {
-    width: 2.8rem;
-    height: 2.8rem;
+    width: calc(1.2rem + 1.2vw);
+    height: calc(1.2rem + 1.2vw);
     margin-bottom: 1rem;
     opacity: 0.9;
 }
@@ -102,4 +96,30 @@
 .chevron path{
     color: var(--light);
     transition: 0.3s ease 0.3s;
+}
+
+@media (max-width: 1080px) {
+    .perks {
+        min-height: 68rem;
+    }
+    .retainer {
+        flex-direction: column;
+    }
+    .image {
+        width: calc(24rem + 18vw);
+        height: calc(16rem + 10vw);
+        margin-bottom: 3.2rem;
+        transform: translate(0, -10%);
+    }
+
+    .content {
+        width: calc(24rem + 18vw);
+    }
+    .content h2 {
+        margin-bottom: 3.2rem;
+    }
+    .cards {
+        gap: 3.2rem 0;
+        margin-bottom: 3.2rem;
+    }
 }
