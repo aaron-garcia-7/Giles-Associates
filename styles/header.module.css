@@ -3,7 +3,7 @@
     position: fixed;
     width: 100vw;
     z-index: 3;
-    /* display: none; */
+    transition: 0.3s ease, width 0s;
 }
 
 .retainer {
@@ -23,7 +23,6 @@
 }
 
 .navLinks {
-    /* border: 2px dashed coral; */
     display: flex;
 }
 
@@ -34,6 +33,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: calc(0.8rem + 0.2vw);
     font-weight: 400;
+    color: var(--hero);
 }
 
 @media (max-width: 1440px) {

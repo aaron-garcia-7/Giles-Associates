@@ -1,9 +1,14 @@
 import React from "react";
 import styles from "../styles/header.module.css";
 
-const Header = () => {
+const Header = ({ fromTop, scrollDown }) => {
+  const headerStyles = {
+    transform:
+      fromTop && scrollDown ? "translate(0, -100%)" : "translate(0, 0)",
+  };
+
   return (
-    <header className={styles.header}>
+    <header className={styles.header} style={headerStyles}>
       <div className={styles.retainer}>
         <h1>Giles & Associates</h1>
         <ul className={styles.navLinks}>

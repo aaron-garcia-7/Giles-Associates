@@ -9,9 +9,9 @@ const WhyUs = () => {
           Why Choose <br /> <em className={styles.em}>Giles & Associates</em>
         </h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe totam
-          nemo consequatur nisi. Hic nobis voluptatibus quisquam ullam soluta
-          atque.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+          soluta deleniti atque id nemo quia blanditiis saepe aut est placeat
+          facilis. Saepe aut, accusamus asperiores eveniet earum doloremque!
         </p>
       </div>
     </section>

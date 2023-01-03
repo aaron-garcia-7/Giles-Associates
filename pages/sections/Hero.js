@@ -64,9 +64,7 @@ const Hero = () => {
               </label>
             </div>
             <select name="" id="" className={styles.select} required>
-              <option value selected="selected">
-                Location of Interest
-              </option>
+              <option defaultValue>Location of Interest</option>
               <option value="pleasantGrove">Pleasant Grove</option>
               <option value="lehi">Lehi</option>
               <option value="orem">Orem</option>
