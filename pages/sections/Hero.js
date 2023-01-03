@@ -11,7 +11,7 @@ const Hero = () => {
             <h4>It’s that simple</h4>
             <p>
               Please fill out the form below to get started and <br />
-              we'll reach out with more information!
+              we’ll reach out with more information!
             </p>
           </div>
           <form action="" method="post" className={styles.form}>
