@@ -1,0 +1,33 @@
+.whyUs {
+    height: 50vh;
+    min-height: 26rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.retainer {
+    width: 100%;
+    max-width: 76rem;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.retainer > * {
+    text-align: center;
+}
+
+.retainer h2 {
+    margin-bottom: 2rem;
+    font-size: calc(1.6rem + 0.6vw);
+    font-weight: 500;
+}
+
+.em {
+    font-style: normal;
+    color: var(--hero);
+  }

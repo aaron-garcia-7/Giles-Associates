@@ -1,0 +1,43 @@
+.header {
+    background: var(--light);
+    position: fixed;
+    width: 100vw;
+    z-index: 3;
+    /* display: none; */
+}
+
+.retainer {
+    max-width: 76rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 1.6rem 1rem;
+}
+
+.retainer h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(1.2rem + 0.2vw);
+    font-weight: 400;
+    color: maroon;
+}
+
+.navLinks {
+    /* border: 2px dashed coral; */
+    display: flex;
+}
+
+.navLinks li {
+    margin-right: 1.6rem;
+}
+.navLinks li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(0.8rem + 0.2vw);
+    font-weight: 400;
+}
+
+@media (max-width: 1440px) {
+    .retainer {
+        padding: 1.2rem 1rem;
+    }
+}
