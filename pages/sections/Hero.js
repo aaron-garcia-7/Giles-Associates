@@ -3,7 +3,7 @@ import styles from "../../styles/hero.module.css";
 
 const Hero = () => {
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} id="hero">
       <div className={styles.retainer}>
         <div className={styles.contactForm}>
           <div className={styles.formHeader}>

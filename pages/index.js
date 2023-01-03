@@ -1,9 +1,13 @@
+// Images by Andrea Piacquadio from Pexels
+
 import React, { useState, useEffect, useCallback } from "react";
 import Head from "next/head";
 import Header from "../components/Header";
 import Hero from "./sections/Hero";
 import Perks from "./sections/Perks";
 import WhyUs from "./sections/WhyUs";
+import Locations from "./sections/Locations";
+import About from "./sections/About";
 
 export default function Home() {
   const [fromTop, setFromTop] = useState(false);
@@ -49,6 +53,8 @@ export default function Home() {
         <Hero />
         <WhyUs />
         <Perks />
+        <Locations />
+        <About />
       </main>
     </div>
   );

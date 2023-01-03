@@ -1,0 +1,48 @@
+.about {
+    height: 60vh;
+    min-height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.retainer {
+    width: 100%;
+    max-width: 76rem;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutText {
+    width: 46%;
+}
+
+.aboutText h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: calc(1rem + 0.2vw);
+    width: 100%;
+}
+.aboutText h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: calc(1.6rem + 0.8vw);
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.aboutText p {
+    margin-bottom: 2rem;
+}
+
+.aboutImg {
+    width: 46%;
+    height: calc(8rem + 16vw);
+    object-fit: cover;
+    object-position: right;
+}

@@ -3,7 +3,7 @@ import styles from "../../styles/whyUs.module.css";
 
 const WhyUs = () => {
   return (
-    <section className={styles.whyUs}>
+    <section className={styles.whyUs} id="whyUs">
       <div className={styles.retainer}>
         <h2>
           Why Choose <br /> <em className={styles.em}>Giles & Associates</em>

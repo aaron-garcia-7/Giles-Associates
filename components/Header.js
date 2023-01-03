@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import styles from "../styles/header.module.css";
 
 const Header = ({ fromTop, scrollDown }) => {
@@ -13,19 +14,54 @@ const Header = ({ fromTop, scrollDown }) => {
         <h1>Giles & Associates</h1>
         <ul className={styles.navLinks}>
           <li>
-            <a href="">Why Us</a>
+            <Link
+              to="whyUs"
+              smooth={"easeInOutQuint"}
+              duration={800}
+              delay={60}
+            >
+              Why Us
+            </Link>
           </li>
           <li>
-            <a href="">Perks</a>
+            <Link
+              to="perks"
+              smooth={"easeInOutQuint"}
+              duration={800}
+              delay={60}
+            >
+              Perks
+            </Link>
           </li>
           <li>
-            <a href="">Location</a>
+            <Link
+              to="locations"
+              smooth={"easeInOutQuint"}
+              duration={800}
+              delay={60}
+            >
+              Location
+            </Link>
           </li>
           <li>
-            <a href="">About</a>
+            <Link
+              to="about"
+              smooth={"easeInOutQuint"}
+              duration={800}
+              delay={60}
+            >
+              About
+            </Link>
           </li>
           <li>
-            <a href="">Call Now</a>
+            <Link
+              to="callNow"
+              smooth={"easeInOutQuint"}
+              duration={800}
+              delay={100}
+            >
+              Call Now
+            </Link>
           </li>
         </ul>
       </div>

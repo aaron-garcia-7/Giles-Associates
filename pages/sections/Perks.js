@@ -5,6 +5,8 @@ import styles from "../../styles/perks.module.css";
 import perks from "../../data/perks";
 import PerkCard from "../../components/PerkCard";
 import perksImg from "../../images/perks.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 const Perks = () => {
   const perkCards = perks.map((obj) => (
@@ -17,7 +19,7 @@ const Perks = () => {
     />
   ));
   return (
-    <section className={styles.perks}>
+    <section className={styles.perks} id="perks">
       <div className={styles.retainer}>
         <Image
           src={perksImg}
@@ -27,7 +29,10 @@ const Perks = () => {
         <div className={styles.content}>
           <h2>Enjoy The Perks</h2>
           <div className={styles.cards}>{perkCards}</div>
-          <button>Get started</button>
+          <Link to="hero" smooth={"easeInOutQuint"} duration={800} delay={100}>
+            Get started
+            <FontAwesomeIcon icon={faChevronRight} className={styles.chevron} />
+          </Link>
         </div>
       </div>
     </section>
