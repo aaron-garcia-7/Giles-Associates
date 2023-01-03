@@ -23,6 +23,7 @@ const Hero = () => {
             netlify-honeypot="bot-field"
             hidden
           >
+            <input type="hidden" name="form-name" value="contact" />
             <div className={styles.formBlock}>
               <input
                 type="text"
