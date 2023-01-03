@@ -52,7 +52,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <form name="contact" netlify="true" netlify-honeypot="bot-field" hidden>
         <input type="text" name="firstName" />
         <input type="text" name="lastName" />
         <input type="email" name="email" />
