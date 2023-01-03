@@ -51,6 +51,15 @@ export default function Home() {
         <meta name="description" content="Description Here" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="firstName" />
+        <input type="text" name="lastName" />
+        <input type="email" name="email" />
+        <input type="tel" name="phone" />
+        <select name="locationPreference" id="locationPreference"></select>
+      </form>
+
       <main>
         <Header fromTop={fromTop} scrollDown={scrollDown} />
         <ToTop fromTop={fromTop} />

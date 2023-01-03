@@ -72,7 +72,12 @@ const Hero = () => {
                 Phone Number
               </label>
             </div>
-            <select name="" id="" className={styles.select} required>
+            <select
+              name="locationPreference"
+              id="locationPreference"
+              className={styles.select}
+              required
+            >
               <option defaultValue>Location of Interest</option>
               <option value="pleasantGrove">Pleasant Grove</option>
               <option value="lehi">Lehi</option>
