@@ -15,7 +15,11 @@ const Footer = () => {
           </a>
           <a href="">(801) 123-4567</a>
         </div>
-        <a href="" className={styles.credits}>
+        <a
+          href="https://aarongarciacreative.com/"
+          target="_blank"
+          className={styles.credits}
+        >
           Made with <FontAwesomeIcon icon={faHeart} className={styles.heart} />{" "}
           by Aaron Garcia
         </a>

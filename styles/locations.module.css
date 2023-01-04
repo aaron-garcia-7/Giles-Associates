@@ -9,7 +9,6 @@
 }
 
 .retainer {
-    /* border: 2px dashed grey; */
     width: 100%;
     height: 100%;
     max-width: 76rem;
@@ -22,7 +21,6 @@
 }
 
 .locationsTitle {
-    /* border: 2px solid black; */
     display: flex;
     height: 12rem;
 }
@@ -44,7 +42,6 @@
 }
 
 .gallery {
-    /* border: 2px solid black; */
     position: relative;
     height: 70%;
     margin-bottom: 8rem; /* Acts to push section up or down */
@@ -65,7 +62,6 @@
     transform: translate(-105%, -106%);
 }
 .galleryImg:nth-of-type(2) {
-    /* transform: translate(0%, -100%); */
     transform: translate(4%, -70%);
     width: calc(13rem + 13vw);
     height: calc(10rem + 10vw);

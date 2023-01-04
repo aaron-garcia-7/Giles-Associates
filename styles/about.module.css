@@ -51,11 +51,9 @@
 
 @media (max-width: 1080px) {
     .about {
-        /* border: 2px dashed black; */
         min-height: 64rem;
     }
     .retainer {
-        /* border: 2px solid black; */
         transform: translate(0, 0%);
         flex-direction: column-reverse;
     }

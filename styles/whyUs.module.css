@@ -63,11 +63,7 @@
     }
 }
 
-@media (max-width: 480px) {
-    /* .whyUs {
-        border: 2px dashed red;
-    } */
-    
+@media (max-width: 480px) {    
     .retainer {
         padding: 0rem 1rem;
         transform: translate(0, -20%);
