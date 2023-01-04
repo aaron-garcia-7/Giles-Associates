@@ -1,5 +1,5 @@
 .callNow {
-    /* border: 2px solid black; */
+    /* border: 2px dashed black; */
     height: 50vh;
     min-height: 26rem;
     display: flex;
@@ -44,6 +44,7 @@
 }
 .callNowBtn::before {
     content: "(801) 123-4567";
+    padding-left: 2rem !important;
 }
 
 
@@ -56,5 +57,11 @@
 @media (max-width: 1080px) {
     .retainer p {
         width: 68%;
+    }
+}
+
+@media (max-width: 580px) {
+    .retainer p {
+        width: 90%;
     }
 }

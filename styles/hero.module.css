@@ -83,6 +83,7 @@
     height: 100%;
     font-size: calc(0.9rem + 0.2vw);
     border-bottom: 2px solid var(--dark);
+    border-radius: 0;
     outline: none;
 }
 .input:focus ~ .label,
@@ -201,10 +202,29 @@
 @media (max-width: 1080px) {
     .hero {
         background-position: right;
-
     }
     .contactForm {
         margin: auto;
         width: calc(24rem + 18vw);
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        background-position: 84% 0%;
+    }
+    .contactForm {
+        width: 100%;
+        padding: 2.8rem 1.2rem;
+    }
+    .retainer {
+        transform: translate(0, -4%);
+    }
+    .formHeader h1 {
+        font-size: calc(1.2rem + 0.8vw);
+        font-weight: 700;
+    }
+    .break {
+        display: none;
     }
 }

@@ -9,7 +9,7 @@ const About = () => {
       <div className={styles.retainer}>
         <article className={styles.aboutText}>
           <h3>Learn More About Us</h3>
-          <h2>Giles & Associates</h2>
+          <h2>Grovewood Therapy</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
             provident sint esse at non quas dolor facilis aliquam adipisci

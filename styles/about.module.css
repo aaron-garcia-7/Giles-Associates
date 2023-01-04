@@ -68,3 +68,20 @@
         width: calc(24rem + 18vw);
     }
 }
+
+@media (max-width: 580px) {
+    .aboutImg {
+        /* width: 100%; */
+        margin-bottom: 4rem;
+    }
+    .aboutText {
+        width: 90%;
+    }
+    .aboutText h3 {
+        font-size: calc(0.8rem + 0.2vw);
+        margin-bottom: 0.6rem;
+    }
+    .aboutText h2 {
+        font-size: calc(1.4rem + 0.8vw);
+    }
+}

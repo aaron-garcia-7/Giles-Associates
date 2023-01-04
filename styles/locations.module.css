@@ -166,3 +166,20 @@
     }
 }
 
+@media (max-width: 520px) {
+    .locations {
+        min-height: 56rem;
+    }
+    .locationsTitle {
+        width: 90%;
+        text-align: center;
+    } 
+    .locationsTitle h2{
+        width: 100%;
+    }
+
+    .gallery {
+        transform: scale(0.7) translate(0, 12%);
+    }
+}
+
