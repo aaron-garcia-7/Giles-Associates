@@ -18,6 +18,7 @@ const Footer = () => {
         <a
           href="https://aarongarciacreative.com/"
           target="_blank"
+          rel="noreferrer"
           className={styles.credits}
         >
           Made with <FontAwesomeIcon icon={faHeart} className={styles.heart} />{" "}
