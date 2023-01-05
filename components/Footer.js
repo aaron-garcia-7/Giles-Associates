@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer} id="footer">
       <div className={styles.retainer}>
-        <h6 className={styles.copyright}>Grovewood Therapy © 2023</h6>
+        <h6 className={styles.copyright}>Practice Made Perfect © 2023</h6>
         <div className={styles.contactBlock}>
           <a href="" className={styles.address}>
             123 Example Dr.

@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <div id="top">
       <Head>
-        <title>Grovewood Therapy</title>
+        <title>Practice Made Perfect</title>
         <meta name="description" content="Description Here" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

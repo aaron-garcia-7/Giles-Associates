@@ -8,8 +8,11 @@ const About = () => {
     <section className={styles.about} id="about">
       <div className={styles.retainer}>
         <article className={styles.aboutText}>
-          <h3>Learn More About Us</h3>
-          <h2>Grovewood Therapy</h2>
+          <h3>Learn more about</h3>
+          <h2>
+            The Practice
+            <br /> Made Perfect
+          </h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
             provident sint esse at non quas dolor facilis aliquam adipisci

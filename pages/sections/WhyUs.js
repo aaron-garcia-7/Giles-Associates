@@ -24,7 +24,7 @@ const WhyUs = () => {
     <section className={styles.whyUs} id="whyUs">
       <div className={styles.retainer}>
         <h2>
-          Why Choose <br /> <em className={styles.em}>Grovewood Therapy</em>
+          Why Choose <br /> <em className={styles.em}>Practice Made Perfect</em>
         </h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,

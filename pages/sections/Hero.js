@@ -7,7 +7,7 @@ const Hero = () => {
       <div className={styles.retainer}>
         <div className={styles.contactForm}>
           <div className={styles.formHeader}>
-            <h1>Grovewood Therapy</h1>
+            <h1>Practice Made Perfect</h1>
             <h4>Registration</h4>
             <p>
               Please fill out the form below to get started and{" "}
