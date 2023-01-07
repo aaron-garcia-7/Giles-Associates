@@ -1,9 +1,32 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styles from "../../styles/hero.module.css";
+import heroImg from "../../images/hero.jpg";
+import Image from "next/image";
 
 const Hero = () => {
+  // Parallax Effect
+  const [offset, setOffset] = useState(0);
+  const parallaxScroll = () => {
+    setOffset(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", parallaxScroll);
+    return () => window.removeEventListener("scroll", parallaxScroll);
+  }, [offset]);
+
+  const parallaxStyle = {
+    transform: `translate(0%, ${offset * 0.1}px)`,
+  };
+  // End Parallax
   return (
     <section className={styles.hero} id="hero">
+      <Image
+        src={heroImg}
+        alt="man in red sweater smiling against a brick wall"
+        className={styles.bgImg}
+        style={parallaxStyle}
+      />
       <div className={styles.retainer}>
         <div className={styles.contactForm}>
           <div className={styles.formHeader}>

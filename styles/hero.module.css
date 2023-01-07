@@ -1,12 +1,20 @@
 .hero {
+    position: relative;
     height: 100vh;
     min-height: 48rem;
-    background-image: url(../images/hero.jpg);
-    background-size: cover;
-    background-position: 0% 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.bgImg {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    min-height: 48rem;
+    object-fit: cover;
+    pointer-events: none;
 }
 
 .retainer {
@@ -198,8 +206,8 @@
 }
 
 @media (max-width: 1080px) {
-    .hero {
-        background-position: right;
+    .bgImg {
+        object-position: right;
     }
     .contactForm {
         margin: auto;
@@ -208,8 +216,8 @@
 }
 
 @media (max-width: 480px) {
-    .hero {
-        background-position: 84% 0%;
+    .bgImg {
+        object-position: 84% 0%;
     }
     .contactForm {
         width: 100%;
