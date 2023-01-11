@@ -29,7 +29,7 @@ const WhyUs = () => {
           practice without facing all of the usual debt and risk associated with
           getting started. Let us provide the furnished, modern office and
           expert mentorship so you can get to what matters most — therapy.
-          Please fill out the form above to get started. We'll reach out to you
+          Please fill out the form above to get started. We’ll reach out to you
           within a few days.
         </p>
       </div>
