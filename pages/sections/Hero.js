@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import styles from "../../styles/hero.module.css";
 import heroImg from "../../images/hero.jpg";
 import Image from "next/image";
+import ScrollDown from "../../components/ScrollDown";
 
-const Hero = () => {
+const Hero = ({ fromTop }) => {
   // Parallax Effect
   const [offset, setOffset] = useState(0);
   const parallaxScroll = () => {
@@ -31,11 +32,19 @@ const Hero = () => {
         <div className={styles.contactForm}>
           <div className={styles.formHeader}>
             <h1>Practice Made Perfect</h1>
-            <h4>Registration</h4>
-            <p>
-              Please fill out the form below to get started and{" "}
-              <br className={styles.break} />
-              we’ll reach out with more information!
+            {/* <h4>
+              A Launch Point for Therapists starting their private practice
+            </h4> */}
+            {/* <p>
+              Practice Made Perfect makes it possible to have your own therapy
+              practice without facing all of the usual debt and risk associated
+              with getting started. Let us provide the furnished, modern office
+              and expert mentorship so you can get to what matters most —
+              therapy. Fill out the form below to schedule a call.
+            </p> */}
+            <p className={styles.altp}>
+              We make owning your therapy practice a simple matter. <br />
+              <em>Fill out the form below to schedule a call.</em>
             </p>
           </div>
           <form
@@ -96,22 +105,26 @@ const Hero = () => {
                 Phone Number
               </label>
             </div>
-            <select
-              name="locationPreference"
-              id="locationPreference"
-              className={styles.select}
-              required
-            >
-              <option defaultValue>Location of Interest</option>
-              <option value="pleasantGrove">Pleasant Grove</option>
-              <option value="lehi">Lehi</option>
-              <option value="orem">Orem</option>
-            </select>
+            <div className={styles.messageDiv}>
+              <textarea
+                name="question"
+                id=""
+                placeholder=" "
+                className={styles.textarea}
+              ></textarea>
+              <label
+                htmlFor="question"
+                className={`${styles.label} ${styles.textLabel}`}
+              >
+                Question
+              </label>
+            </div>
             <button type="submit" className={styles.submit}>
-              Request More Info
+              Send Inquiry Now
             </button>
           </form>
         </div>
+        <ScrollDown fromTop={fromTop} />
       </div>
     </section>
   );

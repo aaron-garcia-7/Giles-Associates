@@ -8,7 +8,7 @@
 
 .retainer {
     width: 100%;
-    max-width: 76rem;
+    max-width: var(--retainer);
     margin: auto;
     padding: 2rem 1rem;
     display: flex;
@@ -17,9 +17,10 @@
 }
 
 .image {
-    width: 44%;
-    height: calc(24rem + 10vw);
+    width: 40%;
+    height: calc(20rem + 14vw);
     object-fit: cover;
+    object-position: 40% 0%;
     box-shadow: 0px 2px 4px #8d8d8d;
 }
 
@@ -29,16 +30,17 @@
 
 .content h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     text-transform: uppercase;
     font-size: calc(1.6rem + 0.8vw);
-    margin-bottom: 2rem;
+    margin-bottom: 2.8rem;
 }
 .cards {
+    /* border: 1px solid blue; */
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem 0;
-    margin-bottom: 2rem;
+    gap: 1.6rem 2rem;
+    margin-bottom: 2.8rem;
 }
 
 .faIcon {
@@ -53,23 +55,26 @@
 }
 
 .perkCard {
-    width: 50%;
-    padding-right: 4rem;
+    /* border: 1px dashed black; */
+    width: 44%;
+    /* padding-right: 4rem; */
+    /* text-align: center; */
+
 }
 
 .perkCard h4 {
-    font-size: calc(1rem + 0.4vw);
+    font-size: calc(0.6rem + 0.4vw);
     margin-bottom: 0.4rem;
     text-transform: uppercase;
 }
 
-.perkCard p {
+/* .perkCard p {
     font-size: calc(0.8rem + 0.2vw);
-}
+} */
 
 .content a {
     padding: 0.6rem 1.4rem;
-    width: 11rem;
+    width: calc(12rem + 2vw);
     font-size: calc(0.8rem + 0.2vw);
     text-transform: uppercase;
     display: flex;
@@ -77,7 +82,7 @@
     align-items: center;
 }
 .content a::before {
-    content: "Get Started";
+    content: "Send Inquiry Now";
 }
 
 .content a:hover .chevron {
@@ -145,6 +150,7 @@
         text-align: center;
     }
     .content a {
+        width: calc(12rem + 4vw);
         transform: translate(0, 100%);
     }
     .cards {

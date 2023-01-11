@@ -11,6 +11,7 @@ import About from "./sections/About";
 import CallNow from "./sections/CallNow";
 import Footer from "../components/Footer";
 import ToTop from "../components/ToTop";
+import ScrollDown from "../components/ScrollDown";
 
 export default function Home() {
   const [fromTop, setFromTop] = useState(false);
@@ -62,8 +63,9 @@ export default function Home() {
 
       <main>
         {/* <Header fromTop={fromTop} scrollDown={scrollDown} /> */}
+        {/* <ScrollDown fromTop={fromTop} /> */}
         <ToTop fromTop={fromTop} />
-        <Hero />
+        <Hero fromTop={fromTop} />
         <WhyUs />
         <Perks />
         <Locations />

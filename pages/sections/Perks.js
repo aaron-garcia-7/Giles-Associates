@@ -15,6 +15,7 @@ const Perks = () => {
       id={obj.id}
       title={obj.title}
       description={obj.description}
+      icon={obj.icon}
       styles={styles}
     />
   ));
@@ -27,7 +28,8 @@ const Perks = () => {
           className={styles.image}
         />
         <div className={styles.content}>
-          <h2>Enjoy The Perks</h2>
+          {/* <h2>What We Offer</h2> */}
+          <h2>The Benefits</h2>
           <div className={styles.cards}>{perkCards}</div>
           <Link
             to="hero"
@@ -36,7 +38,7 @@ const Perks = () => {
             delay={100}
             className="swiperBtn"
           >
-            Get started
+            Send Inquiry Now
             <FontAwesomeIcon icon={faChevronRight} className={styles.chevron} />
           </Link>
         </div>

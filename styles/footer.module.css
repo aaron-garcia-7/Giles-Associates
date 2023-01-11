@@ -1,14 +1,14 @@
 .footer {
-    height: 20vh;
-    min-height: 14rem;
+    height: 16vh;
+    min-height: 12rem;
 }
 
 .retainer {
     border-top: 2px solid var(--dark);
     width: 100%;
-    max-width: 76rem;
+    max-width: var(--retainer);
     margin: auto;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     display: flex;
     justify-content: space-between;
     transform: translate(0, 80%);
@@ -32,7 +32,7 @@
 }
 
 .contactBlock {
-    width: 30%;
+    width: 36%;
     display: flex;
     justify-content: space-between;
     font-size: calc(0.7rem + 0.2vw);
@@ -40,12 +40,9 @@
 
 @media (max-width: 1080px) {
     .retainer {
-        width: calc(32rem + 18vw);
+        width: calc(36rem + 24vw);
     }
     .contactBlock {
-        width: 30%;
-        display: flex;
-        justify-content: space-between;
         font-size: calc(0.6rem + 0.2vw);
     }
 }

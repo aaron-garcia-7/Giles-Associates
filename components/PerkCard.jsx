@@ -1,11 +1,10 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBox, faSackDollar, faCouch, faClock } from '@fortawesome/free-solid-svg-icons'
 
-const PerkCard = ({id, title, description, styles}) => {
+const PerkCard = ({id, title, description, icon, styles}) => {
   return (
-    <div className={styles.perkCard}>
-        <FontAwesomeIcon icon={id === 1 ? faBox : id === 2 ? faSackDollar : id === 3 ? faCouch : faClock} className={styles.faIcon}/>
+    <div className={styles.perkCard} id="perks">
+        <FontAwesomeIcon icon={icon} className={styles.faIcon}/>
         <h4>{title}</h4>
         <p>{description}</p>
     </div>

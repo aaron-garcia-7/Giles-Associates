@@ -38,10 +38,11 @@ const Locations = () => {
             Suite Life
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-            tempore, perferendis voluptas non itaque ipsum sint doloribus quam
-            dolores omnis esse molestias fugiat at magni inventore sapiente
-            excepturi et quod sed? Consectetur ipsum ex sapiente deleniti!
+            This beautiful office location is just off I-15 Exit 275 in Pleasant
+            Grove. It has been an established therapy location for private
+            practice since it was built in 2009. It has beautiful views, lots of
+            natural light and is fully furnished. Clients who live anywhere from
+            Sandy to Payson can get to the office in less than 30 minutes.
           </p>
         </div>
         <div className={styles.gallery}>
@@ -57,7 +58,7 @@ const Locations = () => {
           delay={100}
           className={`${styles.locationsBtn} swiperBtn`}
         >
-          Get started
+          Send Inquiry Now
           <FontAwesomeIcon icon={faChevronRight} className={styles.chevron} />
         </Link>
       </div>

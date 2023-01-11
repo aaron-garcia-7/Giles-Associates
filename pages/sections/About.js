@@ -8,30 +8,29 @@ const About = () => {
     <section className={styles.about} id="about">
       <div className={styles.retainer}>
         <article className={styles.aboutText}>
-          <h3>Learn more about</h3>
-          <h2>
-            The Practice
-            <br /> Made Perfect
-          </h2>
+          {/* <h3>Learn more about</h3> */}
+          <h2>About Us</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
-            provident sint esse at non quas dolor facilis aliquam adipisci
-            molestiae maxime doloribus, repellat vitae neque. Voluptates
-            perferendis quae qui quas vero, totam sequi commodi officia nihil
-            laudantium in eos ea.
+            My name is Geret Giles. I’m a psychologist with a private practice
+            in Pleasant Grove. Having built this practice over the years, I know
+            how difficult (and expensive) it can be to start your own. I learned
+            a lot of lessons the hard way. So, over the last decade I’ve
+            developed a model of best practices to help other therapists, like
+            me, succeed in building their own practice.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            fugiat quis quam rem magnam cumque libero? Nulla cumque, quaerat
-            iure aperiam rem quibusdam quidem, delectus illum harum tempore
-            facere sapiente tenetur deleniti, consequatur voluptatibus velit
-            architecto quis doloribus et? Similique illo voluptates placeat
-            delectus omnis porro.
+            Dr. Geret Giles successfully built his private therapy practice
+            through years of experience. He knows, first hand, the challenges
+            that can come with starting a business: How do you generate clients?
+            How do you set your fees? What about taxes? He’s learned many
+            lessons the hard way. So, he’s curated a model that he deems as the
+            essentials—Practice Made Perfect, which is designed to help other
+            therapists excel and thrive in private practice.
           </p>
         </article>
         <Image
           src={aboutImg}
-          alt="man in red sweater"
+          alt="Geret Giles in a white button up"
           className={styles.aboutImg}
         />
       </div>

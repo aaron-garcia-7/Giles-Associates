@@ -5,16 +5,13 @@ const CallNow = () => {
   return (
     <section className={styles.callNow} id="callNow">
       <div className={styles.retainer}>
-        <h2>
-          Call to Reserve <br /> Your Suite Now
-        </h2>
+        <h2>Contact Us</h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore
-          molestias, consectetur laudantium natus sapiente libero molestiae
-          illum neque, a quam eos voluptatibus commodi autem.
+          Feel free to contact us for any questions. Our lines are open from
+          8:00am to 6:00pm M-F. <br /> We look forward to speaking with you!
         </p>
-        <a href="" className={`${styles.callNowBtn} swiperBtn`}>
-          (801) 123-4567
+        <a href="tel:8017854622" className={`${styles.callNowBtn} swiperBtn`}>
+          (801) 785-4622
         </a>
       </div>
     </section>

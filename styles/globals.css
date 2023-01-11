@@ -27,6 +27,55 @@ button {
   cursor: pointer;
 }
 
+.scrollDownDiv {
+  /* border: 2px solid yellow; */
+  position: absolute;
+  bottom: 0;
+  padding-bottom: calc(1rem + 1vw);
+  left: 50%;
+  /* width: 100vw; */
+  height: 5rem;
+  opacity: 0;
+  transform: translate(-50%, 40%);
+  animation: appear 1s cubic-bezier(.06,.69,.38,1) 1.2s forwards;
+}
+
+.scrollDown {
+  color: var(--light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 5;
+  opacity: 1;
+  pointer-events: all;
+  transition: 0.5s ease;
+  text-transform: uppercase;
+  font-size: calc(1rem + 0.2vw);
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.downChevron {
+  width: calc(1.6rem + 0.2vw);
+  transform: translate(0, -12%);
+  animation: hover 2s ease-in-out 2.4s infinite alternate;
+}
+.downChevron path {
+  fill: var(--light);
+}
+@keyframes appear {
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0%);
+  }
+}
+@keyframes hover {
+  to {
+    transform: translate(0%, 12%);
+  }
+}
+
 /* To Top Button */
 .toTop {
   background: var(--light);
@@ -139,5 +188,14 @@ button {
   .toTop {
       bottom: 6.4vw;
       right: 6.4vw;
+  }
+}
+
+@media (max-width: 480px){
+  @keyframes appear {
+    to {
+      opacity: 1;
+      transform: translate(-50%, 100%);
+    }
   }
 }

@@ -1,7 +1,7 @@
 .whyUs {
     position: relative;
-    height: 50vh;
-    min-height: 26rem;
+    height: 36vh;
+    min-height: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
 
 .retainer {
     width: 100%;
-    max-width: 76rem;
+    max-width: var(--retainer);
     margin: auto;
     padding: 2rem 1rem;
     display: flex;
@@ -25,7 +25,7 @@
 .retainer h2 {
     margin-bottom: 2rem;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     font-size: calc(1.6rem + 0.8vw);
     text-transform: uppercase;
 }
@@ -66,7 +66,7 @@
 @media (max-width: 480px) {    
     .retainer {
         padding: 0rem 1rem;
-        transform: translate(0, -20%);
+        transform: translate(0, -6%);
     }
     .retainer p {
         width: 90%;
@@ -74,5 +74,6 @@
     .abstract {
         width: 30%;
         bottom: 0%;
+        display: none;
     }
 }

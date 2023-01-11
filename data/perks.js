@@ -1,19 +1,42 @@
+import {
+  faCompass,
+  faClock,
+  faSackDollar,
+  faCouch,
+  faUser,
+  faLightbulb,
+} from "@fortawesome/free-solid-svg-icons";
+
 const perks = [
   {
-    title: "2 weeks free rent at move in",
-    description: `We're here to support you from the start.`,
+    title: "Be your own boss",
+    icon: faCompass,
+    // description: `We're here to support you from the start.`,
   },
   {
-    title: "Keep 100% of what you earn",
-    description: `We know that it's YOUR business.`,
+    title: "Set your own schedule and fees",
+    icon: faClock,
+    // description: `We know that it's YOUR business.`,
   },
   {
-    title: "Private, Fully Equipped Suites",
-    description: `Custom designed suites that you're going to love!`,
+    title: "Keep 100% of what you make",
+    icon: faSackDollar,
+    // description: `Custom designed suites that you're going to love!`,
   },
   {
-    title: "Set your own hours and prices",
-    description: `Work how you want, when you want.`,
+    title: "Private, fully furnished offices to lease",
+    icon: faCouch,
+    // description: `Work how you want, when you want.`,
+  },
+  {
+    title: "Referrals to help build your practice",
+    icon: faUser,
+    // description: `Work how you want, when you want.`,
+  },
+  {
+    title: "Opportunities for mentorship",
+    icon: faLightbulb,
+    // description: `Work how you want, when you want.`,
   },
 ];
 
