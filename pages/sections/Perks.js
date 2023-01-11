@@ -24,7 +24,7 @@ const Perks = () => {
       <div className={styles.retainer}>
         <Image
           src={perksImg}
-          alt="man in a red sweater"
+          alt="Therapy session. Two people talking."
           className={styles.image}
         />
         <div className={styles.content}>

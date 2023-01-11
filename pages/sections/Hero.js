@@ -32,9 +32,7 @@ const Hero = ({ fromTop }) => {
         <div className={styles.contactForm}>
           <div className={styles.formHeader}>
             <h1>Practice Made Perfect</h1>
-            {/* <h4>
-              A Launch Point for Therapists starting their private practice
-            </h4> */}
+            <h4>A Launch Point for Therapists in private practice</h4>
             {/* <p>
               Practice Made Perfect makes it possible to have your own therapy
               practice without facing all of the usual debt and risk associated
@@ -43,8 +41,7 @@ const Hero = ({ fromTop }) => {
               therapy. Fill out the form below to schedule a call.
             </p> */}
             <p className={styles.altp}>
-              We make owning your therapy practice a simple matter. <br />
-              <em>Fill out the form below to schedule a call.</em>
+              Fill out the form below to schedule a call.
             </p>
           </div>
           <form

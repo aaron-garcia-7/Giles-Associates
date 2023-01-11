@@ -10,14 +10,14 @@ const About = () => {
         <article className={styles.aboutText}>
           {/* <h3>Learn more about</h3> */}
           <h2>About Us</h2>
-          <p>
+          {/* <p>
             My name is Geret Giles. I’m a psychologist with a private practice
             in Pleasant Grove. Having built this practice over the years, I know
             how difficult (and expensive) it can be to start your own. I learned
             a lot of lessons the hard way. So, over the last decade I’ve
             developed a model of best practices to help other therapists, like
             me, succeed in building their own practice.
-          </p>
+          </p> */}
           <p>
             Dr. Geret Giles successfully built his private therapy practice
             through years of experience. He knows, first hand, the challenges

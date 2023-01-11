@@ -14,6 +14,7 @@
     height: 100vh;
     min-height: 48rem;
     object-fit: cover;
+    /* object-position: 0% 50%; */
     pointer-events: none;
 }
 
@@ -28,7 +29,7 @@
     color: var(--dark);
     background: #f4f4f4ee;
     width: 56%;
-    margin: auto;
+    /* margin: auto; */
     /* height: 90vh; */
     padding: 4rem 2rem;
     opacity: 0;
@@ -51,30 +52,23 @@
 .formHeader h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: calc(1.6rem + 0.8vw);
-    font-weight: 800;
+    font-weight: 900 !important;
     text-transform: uppercase;
     margin-bottom: 1.2rem;
-    margin-bottom: 2.8rem;
+    /* margin-bottom: 2.8rem; */
 }
 
 .formHeader h4 {
     font-weight: 400;
-    font-size: calc(0.8rem + 0.2vw);
-    font-style: italic;
+    font-size: calc(1rem + 0.2vw);
     text-transform: uppercase;
     margin-bottom: 1.6rem;
 }
 
-/* .formHeader p {
+.formHeader p {
     font-weight: 400;
     font-size: calc(0.8rem + 0.2vw);
-    margin-bottom: 2rem;
-} */
-
-.altp {
-    font-weight: 400;
-    font-size: calc(1rem + 0.2vw);
-    margin-bottom: 4rem;
+    margin-bottom: 2.8rem;
 }
 
 .form {

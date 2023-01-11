@@ -33,10 +33,7 @@ const Locations = () => {
     <section className={styles.locations} id="locations">
       <div className={styles.retainer}>
         <div className={styles.locationsTitle}>
-          <h2>
-            Live The <br />
-            Suite Life
-          </h2>
+          <h2>Location is Key</h2>
           <p>
             This beautiful office location is just off I-15 Exit 275 in Pleasant
             Grove. It has been an established therapy location for private
