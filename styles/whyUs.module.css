@@ -1,7 +1,8 @@
 .whyUs {
+    /* border: 2px dashed grey; */
     position: relative;
-    height: 36vh;
-    min-height: 20rem;
+    height: 32vh;
+    min-height: 16rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,11 +12,12 @@
     width: 100%;
     max-width: var(--retainer);
     margin: auto;
-    padding: 2rem 1rem;
+    padding: 0 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform: translate(0, 18%);
 }
 
 .retainer > * {
@@ -31,6 +33,7 @@
 }
 
 .retainer p {
+    font-family: 'Poppins', sans-serif;
     font-size: calc(0.8rem + 0.2vw);
 }
 
@@ -48,6 +51,15 @@
     opacity: 0.2;
 }
 
+@media (min-width: 1860px) {
+    .retainer h2 {
+        font-size: 2.4rem;
+    }
+    .retainer p {
+        font-size: 1.08rem;
+    }
+}
+
 @media (max-width: 1440px) {
     .retainer p {
         width: 80%;
@@ -56,7 +68,7 @@
 
 @media (max-width: 1080px) {
     .retainer p {
-        width: 68%;
+        width: calc(12rem + 48vw);
     }
     .abstract {
         width: 30%;
@@ -68,8 +80,13 @@
         padding: 0rem 1rem;
         transform: translate(0, -6%);
     }
+    .retainer h2 {
+        /* border: 1px solid black; */
+        /* font-family: 'Montserrat', sans-serif !important; */
+        width: 100%;
+    }
     .retainer p {
-        width: 90%;
+        width: 100%;
     }
     .abstract {
         width: 30%;

@@ -13,7 +13,8 @@ const Perks = () => {
     <PerkCard
       key={obj.id}
       id={obj.id}
-      title={obj.title}
+      title1={obj.title1}
+      title2={obj.title2}
       description={obj.description}
       icon={obj.icon}
       styles={styles}

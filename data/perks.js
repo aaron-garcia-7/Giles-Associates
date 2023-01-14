@@ -7,35 +7,54 @@ import {
   faLightbulb,
 } from "@fortawesome/free-solid-svg-icons";
 
+import compass from "../images/icons/compass.svg";
+import clock from "../images/icons/clock.svg";
+import dollar from "../images/icons/dollar.svg";
+import couch from "../images/icons/couch.svg";
+import user from "../images/icons/user.svg";
+import bulb from "../images/icons/bulb.svg";
+
 const perks = [
   {
-    title: "Be your own boss",
-    icon: faCompass,
+    title1: "Be your",
+    title2: "own boss",
+    icon: compass,
+    // icon: faCompass,
     // description: `We're here to support you from the start.`,
   },
   {
-    title: "Set your own schedule and fees",
-    icon: faClock,
+    title1: "Set your own",
+    title2: "schedule and fees",
+    icon: clock,
+    // icon: faClock,
     // description: `We know that it's YOUR business.`,
   },
   {
-    title: "Keep 100% of what you make",
-    icon: faSackDollar,
+    title1: "Keep 100% of",
+    title2: "what you make",
+    icon: dollar,
+    // icon: faSackDollar,
     // description: `Custom designed suites that you're going to love!`,
   },
   {
-    title: "Private, fully furnished offices to lease",
-    icon: faCouch,
+    title1: "Private, furnished",
+    title2: "offices to lease",
+    icon: couch,
+    // icon: faCouch,
     // description: `Work how you want, when you want.`,
   },
   {
-    title: "Referrals to help build your practice",
-    icon: faUser,
+    title1: "Referrals to build",
+    title2: "your practice",
+    icon: user,
+    // icon: faUser,
     // description: `Work how you want, when you want.`,
   },
   {
-    title: "Opportunities for mentorship",
-    icon: faLightbulb,
+    title1: "Opportunities",
+    title2: "for mentorship",
+    icon: bulb,
+    // icon: faLightbulb,
     // description: `Work how you want, when you want.`,
   },
 ];

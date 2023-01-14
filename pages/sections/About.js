@@ -1,9 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import aboutImg from "../../images/about.jpg";
 import styles from "../../styles/about.module.css";
 
 const About = () => {
+  const [offset, setOffset] = useState(0);
+
+  const parallaxEffect = () => {
+    setOffset(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", parallaxEffect);
+    return () => window.removeEventListener("scroll", parallaxEffect);
+  }, []);
+
+  const parallaxStyle = {
+    // transform: `translate(0%, ${offset * 0.1}px)`,
+    transform: `translate(0%, ${offset * 0.08}px)`,
+  };
+
   return (
     <section className={styles.about} id="about">
       <div className={styles.retainer}>
@@ -28,11 +44,14 @@ const About = () => {
             therapists excel and thrive in private practice.
           </p>
         </article>
-        <Image
-          src={aboutImg}
-          alt="Geret Giles in a white button up"
-          className={styles.aboutImg}
-        />
+        <figure className={styles.aboutFigure}>
+          <Image
+            src={aboutImg}
+            alt="Geret Giles in a white button up"
+            className={styles.aboutImg}
+            style={parallaxStyle}
+          />
+        </figure>
       </div>
     </section>
   );

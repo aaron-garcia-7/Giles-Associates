@@ -14,12 +14,14 @@ const Hero = ({ fromTop }) => {
   useEffect(() => {
     window.addEventListener("scroll", parallaxScroll);
     return () => window.removeEventListener("scroll", parallaxScroll);
-  }, [offset]);
+  }, []);
 
   const parallaxStyle = {
-    transform: `translate(0%, ${offset * 0.1}px)`,
+    // transform: `translate(0%, ${offset * 0.1}px)`,
+    transform: `translate(0%, ${offset * 0.2}px)`,
   };
   // End Parallax
+
   return (
     <section className={styles.hero} id="hero">
       <Image
@@ -33,13 +35,6 @@ const Hero = ({ fromTop }) => {
           <div className={styles.formHeader}>
             <h1>Practice Made Perfect</h1>
             <h4>A Launch Point for Therapists in private practice</h4>
-            {/* <p>
-              Practice Made Perfect makes it possible to have your own therapy
-              practice without facing all of the usual debt and risk associated
-              with getting started. Let us provide the furnished, modern office
-              and expert mentorship so you can get to what matters most —
-              therapy. Fill out the form below to schedule a call.
-            </p> */}
             <p className={styles.altp}>
               Fill out the form below to schedule a call.
             </p>
@@ -104,16 +99,17 @@ const Hero = ({ fromTop }) => {
             </div>
             <div className={styles.messageDiv}>
               <textarea
-                name="question"
+                name="availability"
                 id=""
                 placeholder=" "
                 className={styles.textarea}
+                required
               ></textarea>
               <label
-                htmlFor="question"
+                htmlFor="availability"
                 className={`${styles.label} ${styles.textLabel}`}
               >
-                Question
+                Available Time / Questions
               </label>
             </div>
             <button type="submit" className={styles.submit}>

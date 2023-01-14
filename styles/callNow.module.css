@@ -36,7 +36,7 @@
 
 .callNowBtn {
     padding: 0.6rem 1.4rem;
-    width: calc(9rem + 2vw);
+    width: calc(9.2rem + 2vw);
     font-size: calc(0.8rem + 0.2vw);
     text-transform: uppercase;
     transition: 0.3s ease;

@@ -118,6 +118,15 @@
     opacity: 0.2;
 }
 
+@media (min-width: 1860px) {
+    .locationsTitle h2 {
+        font-size: 2.4rem;
+    }
+    .locationsTitle p {
+        font-size: 1.08rem;
+    }
+}
+
 @media (max-width: 1440px) {
     .locations {
         height: 112vh;
@@ -127,11 +136,8 @@
         width: 84%;
     }
     .gallery {
-        /* border: 2px solid black; */
-        /* position: relative; */
         height: 56%;
         margin-bottom: 6rem; /* Acts to push section up or down */
-        /* z-index: 2; */
     }
     .locationsBtn {
         transform: translate(0, -100%);
@@ -150,6 +156,7 @@
     }
     .locationsTitle p {
         align-self: flex-start;
+        text-align: left;
     }
 
     .locationsBtn {

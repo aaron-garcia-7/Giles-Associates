@@ -58,12 +58,11 @@ export default function Home() {
         <input type="text" name="lastName" />
         <input type="email" name="email" />
         <input type="tel" name="phone" />
-        <select name="locationPreference" id="locationPreference"></select>
+        <textarea name="availability"></textarea>
       </form>
 
       <main>
         {/* <Header fromTop={fromTop} scrollDown={scrollDown} /> */}
-        {/* <ScrollDown fromTop={fromTop} /> */}
         <ToTop fromTop={fromTop} />
         <Hero fromTop={fromTop} />
         <WhyUs />

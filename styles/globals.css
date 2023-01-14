@@ -9,7 +9,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-style: normal !important; */
   color: var(--dark);
 }
 
@@ -25,6 +26,11 @@ a,
 button {
   text-decoration: none;
   cursor: pointer;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
 
 .scrollDownDiv {
@@ -67,7 +73,7 @@ button {
 @keyframes appear {
   to {
     opacity: 1;
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, -24%);
   }
 }
 @keyframes hover {
@@ -183,6 +189,15 @@ button {
   }
 }
 /* Primary button hover animations */
+
+@media (max-width: 1440px){
+  @keyframes appear {
+    to {
+      opacity: 1;
+      transform: translate(-50%, -12%);
+    }
+  }
+}
 
 @media (max-width: 520px){
   .toTop {
