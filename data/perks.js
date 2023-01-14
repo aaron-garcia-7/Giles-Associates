@@ -1,9 +1,9 @@
-import compass from "../images/icons/compass.svg";
-import clock from "../images/icons/clock.svg";
-import dollar from "../images/icons/dollar.svg";
-import couch from "../images/icons/couch.svg";
-import user from "../images/icons/user.svg";
-import bulb from "../images/icons/bulb.svg";
+import compass from "../images/compass.svg";
+import clock from "../images/clock.svg";
+import dollar from "../images/dollar.svg";
+import couch from "../images/couch.svg";
+import user from "../images/user.svg";
+import bulb from "../images/bulb.svg";
 
 const perks = [
   {
