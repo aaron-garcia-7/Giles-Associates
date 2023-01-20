@@ -23,7 +23,7 @@ const WhyUs = () => {
   return (
     <section className={styles.whyUs} id="whyUs">
       <div className={styles.retainer}>
-        <h2>Our Offer</h2>
+        <h2 className="sectionTitle">Our Offer</h2>
         <p>
           Practice Made Perfect makes it possible to have your own therapy
           practice without facing all of the usual debt and risk associated with

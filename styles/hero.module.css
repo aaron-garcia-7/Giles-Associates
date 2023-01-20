@@ -14,7 +14,6 @@
     height: 100vh;
     min-height: 48rem;
     object-fit: cover;
-    /* object-position: 0% 50%; */
     pointer-events: none;
 }
 
@@ -22,15 +21,12 @@
     width: 100%;
     max-width: var(--retainer);
     margin: auto;
-    /* padding: 2rem 1rem; */
 }
 
 .contactForm {
     color: var(--dark);
     background: #f4f4f4ee;
     width: 58%;
-    /* margin: auto; */
-    /* height: 90vh; */
     padding: 4rem 2rem;
     opacity: 0;
     transform: scale(0.9) translate(0, -4%);
@@ -50,13 +46,13 @@
 }
 
 .formHeader h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--montserrat);
     font-size: calc(1.6rem + 0.8vw);
-    font-weight: 900 !important;
-    font-style: normal !important;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 0.1rem;
     text-transform: uppercase;
     margin-bottom: 1.2rem;
-    /* margin-bottom: 2.8rem; */
 }
 
 .formHeader h4 {
@@ -65,6 +61,9 @@
     font-size: calc(1rem + 0.2vw);
     text-transform: uppercase;
     margin-bottom: 1.6rem;
+}
+.break {
+    display: none;
 }
 
 .formHeader p {
@@ -261,7 +260,6 @@
         min-height: 46rem;
     }
     .contactForm {
-        /* width: 52%; */
         padding: 2.8rem 2rem;
         transform: scale(0.8) translate(0%, -4%);
     }
@@ -271,9 +269,6 @@
             transform: scale(0.9) translate(0%, -4%);
         }
     }
-    /* .formHeader p {
-        margin-bottom: 2.8rem;
-    } */
     .formHeader h1 {
         margin-bottom: 1.4rem;
     }
@@ -334,9 +329,9 @@
     }
     .formHeader h1 {
         font-size: calc(1.2rem + 0.8vw);
-        font-weight: 700;
+        letter-spacing: 0.06rem;
     }
     .break {
-        display: none;
+        display: block;
     }
 }

@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Poppins', sans-serif;
   /* font-style: normal !important; */
   color: var(--dark);
 }
@@ -29,8 +29,15 @@ button {
 }
 
 p {
-  font-family: 'Poppins', sans-serif;
   font-weight: 400;
+}
+
+.sectionTitle {
+  font-family: var(--montserrat);
+  font-weight: 900;
+  font-size: calc(1.6rem + 0.8vw);
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
 
 .scrollDownDiv {

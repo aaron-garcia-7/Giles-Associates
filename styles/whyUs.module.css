@@ -1,5 +1,4 @@
 .whyUs {
-    /* border: 2px dashed grey; */
     position: relative;
     height: 32vh;
     min-height: 16rem;
@@ -26,10 +25,6 @@
 
 .retainer h2 {
     margin-bottom: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: calc(1.6rem + 0.8vw);
-    text-transform: uppercase;
 }
 
 .retainer p {
@@ -78,15 +73,14 @@
 @media (max-width: 480px) {    
     .retainer {
         padding: 0rem 1rem;
-        transform: translate(0, -6%);
+        transform: translate(0, 10%);
     }
     .retainer h2 {
-        /* border: 1px solid black; */
-        /* font-family: 'Montserrat', sans-serif !important; */
         width: 100%;
     }
     .retainer p {
         width: 100%;
+        text-align: left;
     }
     .abstract {
         width: 30%;

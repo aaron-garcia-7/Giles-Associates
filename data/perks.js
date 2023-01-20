@@ -13,7 +13,7 @@ const perks = [
   },
   {
     title1: "Set your own",
-    title2: "schedule and fees",
+    title2: "schedule & fees",
     icon: clock,
   },
   {

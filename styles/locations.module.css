@@ -26,10 +26,6 @@
 }
 
 .locationsTitle h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: calc(1.6rem + 0.8vw);
     width: 80%;
     align-self: center;
 }

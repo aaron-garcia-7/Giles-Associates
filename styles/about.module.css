@@ -22,10 +22,6 @@
 }
 
 .aboutText h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: calc(1.6rem + 0.8vw);
     width: 100%;
     margin-bottom: 2rem;
 }
@@ -70,7 +66,6 @@
 
 @media (max-width: 1080px) {
     .about {
-        /* border: 2px dashed coral; */
         min-height: 52rem;
     }
     .retainer {
@@ -100,7 +95,7 @@
     .aboutText {
         width: 90%;
     }
-    /* .aboutText h2 {
-        font-size: calc(1.4rem + 0.8vw);
-    } */
+    .aboutText h2 {
+        text-align: center;
+    }
 }

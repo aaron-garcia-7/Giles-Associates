@@ -30,7 +30,7 @@ const Perks = () => {
         />
         <div className={styles.content}>
           {/* <h2>What We Offer</h2> */}
-          <h2>The Benefits</h2>
+          <h2 className="sectionTitle">The Benefits</h2>
           <div className={styles.cards}>{perkCards}</div>
           <Link
             to="hero"

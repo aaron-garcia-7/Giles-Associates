@@ -33,8 +33,11 @@ const Hero = ({ fromTop }) => {
       <div className={styles.retainer}>
         <div className={styles.contactForm}>
           <div className={styles.formHeader}>
-            <h1>Practice Made Perfect</h1>
-            <h4>A Launch Point for Therapists in private practice</h4>
+            <h1 className={styles.monterrat}>Practice Made Perfect</h1>
+            <h4>
+              A Launch Point for Therapists <br className={styles.break} /> in
+              private practice
+            </h4>
             <p className={styles.altp}>
               Fill out the form below to schedule a call.
             </p>

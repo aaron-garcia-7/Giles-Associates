@@ -5,7 +5,7 @@ const CallNow = () => {
   return (
     <section className={styles.callNow} id="callNow">
       <div className={styles.retainer}>
-        <h2>Contact Us</h2>
+        <h2 className="sectionTitle">Contact Us</h2>
         <p>
           Feel free to contact us for any questions. Our lines are open from
           8:00am to 6:00pm M-F. <br /> We look forward to speaking with you!

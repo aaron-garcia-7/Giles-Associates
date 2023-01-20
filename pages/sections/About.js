@@ -25,7 +25,7 @@ const About = () => {
       <div className={styles.retainer}>
         <article className={styles.aboutText}>
           {/* <h3>Learn more about</h3> */}
-          <h2>About Us</h2>
+          <h2 className="sectionTitle">About Us</h2>
           {/* <p>
             My name is Geret Giles. I’m a psychologist with a private practice
             in Pleasant Grove. Having built this practice over the years, I know
