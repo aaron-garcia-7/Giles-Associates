@@ -47,7 +47,7 @@ const About = () => {
         <figure className={styles.aboutFigure}>
           <Image
             src={aboutImg}
-            alt="Geret Giles in a white button up"
+            alt="A man, Geret Giles, smiling in a white button up"
             className={styles.aboutImg}
             style={parallaxStyle}
           />

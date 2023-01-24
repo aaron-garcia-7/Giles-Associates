@@ -43,10 +43,26 @@ const Locations = () => {
           </p>
         </div>
         <div className={styles.gallery}>
-          <Image src={gallery1} alt="" className={styles.galleryImg} />
-          <Image src={gallery2} alt="" className={styles.galleryImg} />
-          <Image src={gallery3} alt="" className={styles.galleryImg} />
-          <Image src={gallery4} alt="" className={styles.galleryImg} />
+          <Image
+            src={gallery1}
+            alt="Office Entrance"
+            className={styles.galleryImg}
+          />
+          <Image
+            src={gallery2}
+            alt="Office Entrance"
+            className={styles.galleryImg}
+          />
+          <Image
+            src={gallery3}
+            alt="Office Lobby"
+            className={styles.galleryImg}
+          />
+          <Image
+            src={gallery4}
+            alt="Session Room"
+            className={styles.galleryImg}
+          />
         </div>
         <Link
           to="hero"

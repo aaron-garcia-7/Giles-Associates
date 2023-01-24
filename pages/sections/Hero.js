@@ -26,7 +26,7 @@ const Hero = ({ fromTop }) => {
     <section className={styles.hero} id="hero">
       <Image
         src={heroImg}
-        alt="man in red sweater smiling against a brick wall"
+        alt="Office building for Giles & Associates"
         className={styles.bgImg}
         style={parallaxStyle}
       />
