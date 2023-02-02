@@ -19,7 +19,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scroll": "^1.8.9",
-    "save": "^2.9.0"
+    "save": "^2.9.0",
+    "sharp": "^0.31.3"
   },
   "devDependencies": {
     "eslint": "8.31.0",

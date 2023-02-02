@@ -29,6 +29,7 @@ const Hero = ({ fromTop }) => {
         alt="Office building for Giles & Associates"
         className={styles.bgImg}
         style={parallaxStyle}
+        priority={true}
       />
       <div className={styles.retainer}>
         <div className={styles.contactForm}>
